@@ -1,0 +1,60 @@
+body {
+  background-color: white;
+}
+
+header p {
+  color: rgb(74, 235, 235);
+}
+
+h1 {
+  color: rgb(74, 235, 235);
+}
+
+body header a {
+  color: rgb(74, 235, 235);
+}
+
+body header a:hover {
+  color: white;
+}
+
+.jumbotron {
+  background: url('./images/portfolio-bg.jpg');
+
+  height: 80px;
+}
+
+header {
+  padding: 5px 5px;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-image: url('./images/portfolio-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+section {
+  text-align: center;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.menu {
+  padding-right: 310px;
+}
